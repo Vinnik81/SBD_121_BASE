@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 using namespace std;
 
@@ -18,12 +18,12 @@ void main()
 		//cout << (int)key << "\t" << key << endl;
 		switch (key)
 		{
-		case UpArrow : case 'w':case 'W': cout << "Âïåðåä" << endl; break; 
-		case DownArrow:case 's':case 'S': cout << "Íàçàä" << endl; break;
-		case LeftArrow:case 'a': case 'A': cout << "Âëåâî" << endl; break;
-		case RightArrow:case 'd': case 'D': cout << "Âïðàâî" << endl; break;
-		case ' ': cout << "Ïðûæîê" << endl; break;
-		case 13 : cout << "Îãîíü" << endl; break;
+		case UpArrow : case 'w':case 'W': cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break; 
+		case DownArrow:case 's':case 'S': cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+		case LeftArrow:case 'a': case 'A': cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+		case RightArrow:case 'd': case 'D': cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case ' ': cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case 13 : cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
 		default: if (key != -32) cout << "Error" << endl;
 		}
 
